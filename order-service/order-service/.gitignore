@@ -1,0 +1,43 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### MySQL Temporary Files ###
+order-service/mysql/mysql.sock
+order-service/mysql/*.sock
+order-service/mysql/*.pid
+order-service/mysql/binlog.index
+order-service/mysql/ib_buffer_pool
+order-service/mysql/auto.cnf
+order-service/mysql/logs/
+order-service/mysql/data/
