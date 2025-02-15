@@ -37,8 +37,10 @@ build/
 
 inventory-service/docker/mysql/data/mysql.sock
 order-service/mysql/mysql.sock
+api-gateway/docker/mysql/data/mysql.sock
 inventory-service/mvnw.cmd
 order-service/mvnw.cmd
 product-service/mvnw.cmd
+api-gateway/mvnw.cmd
 
 data/
