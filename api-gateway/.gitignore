@@ -32,17 +32,4 @@ build/
 ### VS Code ###
 .vscode/
 
-### MySQL Temporary Files ###
-api-gateway/docker/mysql/data/mysql.sock
-api-gateway/docker/mysql/data/*.sock
-api-gateway/mysql/*.pid
-api-gateway/mysql/binlog.index
-api-gateway/mysql/ib_buffer_pool
-api-gateway/mysql/auto.cnf
-api-gateway/mysql/logs/
-api-gateway/mysql/data/
-# Ignore MySQL socket and data files
-api-gateway/volume-data/mysql_keycloak_data/mysql.sock
-api-gateway/volume-data/mysql_keycloak_data/*.sock
-api-gateway/volume-data/mysql_keycloak_data/*
 
